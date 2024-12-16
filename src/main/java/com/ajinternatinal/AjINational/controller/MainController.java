@@ -24,6 +24,12 @@ public class MainController {
 		
 	}
 	/*
+	 * @RequestMapping(value = {"/courses"}) public String courses(Model model) {
+	 * return "courses.html";
+	 * 
+	 * }
+	 */
+	/*
 	 * @GetMapping("/image") public ResponseEntity<Resource> getImage() throws
 	 * Exception { // Path to the image file Path path =
 	 * Paths.get("src/main/resources/static/imagespring.png"); // Load the resource
