@@ -8,7 +8,8 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class WebConfig implements WebMvcConfigurer {
 
 	
-	  @Override public void addViewControllers(ViewControllerRegistry registry) {
+	  @Override 
+	  public void addViewControllers(ViewControllerRegistry registry) {
 	  // TODO Auto-generated method stub
 	  registry.addViewController("/courses").setViewName("courses.html"); 
 	  registry.addViewController("/about").setViewName("about.html"); 
